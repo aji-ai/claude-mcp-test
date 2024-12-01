@@ -21,7 +21,7 @@ I had to run this:
 uv pip install "pydantic>=2.0.0"
 ```
 
-And I got back:
+as I had the wrong version of `pydantic` installed. And I got back:
 
 ```
 (base) ➜  claude-mcp-test git:(main) ✗ fastmcp install server.py       
@@ -29,7 +29,7 @@ And I got back:
                     INFO     Successfully installed Demo in Claude app        cli.py:355
 ```
 
-It can be tested with:
+It can be tested out with:
 
 ```
 fastmcp dev server.py
@@ -39,11 +39,13 @@ You can then launch a server. Select 'connect' and then 'Tools' at the top menu.
 
 ![](assets/snap1.png)
 
-I've entered the two parameters ... and it worked!
+I entered the two input parameters ... and it worked!
 
 ![](assets/snap2.png)
 
 There's the issue of lots of errors pouring out into the console. But ... it seems to work. Let's now plug it in.
+
+## Making it run
 
 I proceeded to go ahead and run it:
 
@@ -81,4 +83,4 @@ It worked!
 
 ![](assets/result.png)
 
-Not bad `fastmcp`!
+Not bad [`fastmcp`](https://github.com/jlowin/fastmcp)!
